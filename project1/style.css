@@ -1,0 +1,67 @@
+body{
+    background: #dd3e54;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #6be585, #dd3e54);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #6be585, #dd3e54); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+#plans {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+    height: 100vh;
+
+
+}
+.parents{
+    border: 2px solid lightgrey;
+    padding: 32px;
+    border-radius: 10px;
+    width:200px;
+    height:300px;
+    background-color: beige;
+padding-top: 0px;
+word-spacing: 2px;
+
+}
+#div1 {
+    background-color: #202842;
+    color: white;
+
+}
+.typeofplan{
+   margin-bottom: 0px;
+font-style: italic;   
+
+}
+.for{
+    margin-top: 2px;
+}
+.money{
+    width: 42px;
+    height: 36px;
+    font-size: 35px;
+}
+
+.submit {
+    border-radius: 10px;
+    background-color:#202842;
+    color: white;
+    margin-left: 10px;
+}
+#btn1{
+    background-color: white;
+    border-radius: 10px;
+    margin-left: 10px;
+
+    
+}
+
+.specs{
+    list-style-type: none;
+    list-style-image: url(check.png) ;
+    padding-left: 25px;
+}
+
+
+
