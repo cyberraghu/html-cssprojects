@@ -1,0 +1,153 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, sans-serif;
+    
+}
+a{
+
+    font-weight: 550;
+    text-decoration: none;
+
+}
+header{
+    height: 60px;
+    background-color: #806BDC;
+    text-align: center;
+}
+.navbar{
+    padding: 18px;
+
+}
+#navbar-title{
+    color: white;
+    font-size: 25px;
+}
+#cloth-container{
+    margin:0px;
+    background-color:#0FA4AF;
+   
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+    gap: 15px;
+
+}
+.cloth-lists{
+   padding: 5px;
+    
+
+}
+.images{
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+    border-radius: 5px;
+    border: 1px solid white;
+}
+h3{
+text-align: center;
+font-size: 15px;
+}
+#banner{
+ width:100vw;
+ height: 500px;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ background: #FC354C;  /* fallback for old browsers */
+ background: -webkit-linear-gradient(to right, #0ABFBC, #FC354C);  /* Chrome 10-25, Safari 5.1-6 */
+ background: linear-gradient(to right, #0ABFBC, #FC354C); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+ 
+}
+
+.shopping{
+  width: 900px;
+  
+border-radius: 5px;
+border-top: 20px solid lightgreen;
+}
+
+
+#upcoming-container{
+    width: 100vw;
+    height: 350px;
+    background-color:beige;
+
+    
+     
+}
+#ups-table-container{
+    border-collapse: collapse;
+    width: 600px;
+    height: 250px;
+    margin:25px auto;
+    
+    
+
+}
+
+thead th{
+    text-align:left;
+    color: white;
+    font-weight: bold;
+    background-color:#009857;
+    height: 40px;
+   padding-left: 15px;
+
+}
+tbody tr td{
+ padding: 15px;
+ border-bottom: 1px solid lightgrey;
+ border-right: 2px solid lightgoldenrodyellow;
+}
+h2{
+    text-align: center;
+    text-shadow: 0px 5px 10px gold;
+    font-weight: bold;
+    }
+#aboutus{
+ 
+    background-color: #a0d2eb;
+    padding: 25px;
+}
+span{
+    font-size: 18px;
+    font-weight: bold;
+    display: inline-block;
+    margin-bottom: 10px;
+    height: 25px;
+
+}
+p{
+    color: grey;
+}
+#p2,#p3{
+    padding-top:10px;
+}
+#list1{
+    list-style-type:disc;
+    padding-left: 20px;
+    margin-bottom: 20px;
+    margin-top: 5px;
+   font-style: italic;
+
+}
+
+#foot{
+    height: 100px;
+    background-color: black;
+    color: white;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+
+
