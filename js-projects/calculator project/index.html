@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="calculator">
+        <form id="form">
+            <div id="display-container">
+                <input id="display" type="text" placeholder="0" readonly>
+            </div>
+            <div class="button"> 
+                <input type="Button" value="AC" onclick="display.value=''">
+                <input type="Button" value="DEL" onclick="display.value = display.value.toString().slice(0,-1)">
+                <input type="Button" value="%" onclick="display.value += value">
+                <input type="Button" value="/" onclick="display.value += value">
+            </div>
+            
+            <div class="button">
+                <input type="Button" value="7" onclick="display.value += value">
+                <input type="Button" value="8" onclick="display.value += value" >
+                <input type="Button" value="9" onclick="display.value += value">
+                <input type="Button" value="*" onclick="display.value += value">
+            </div>
+            <div class="button">
+                <input type="Button" value="4" onclick="display.value += value">
+                <input type="Button" value="5" onclick="display.value += value">
+                <input type="Button" value="6" onclick="display.value += value">
+                <input type="Button" value="-" onclick="display.value += value" onclick="display.value += value">
+            </div>
+            <div class="button">
+                <input type="Button" value="1" onclick="display.value += value">
+                <input type="Button" value="2" onclick="display.value += value">
+                <input type="Button" value="3" onclick="display.value += value">
+                <input type="Button" value="+" onclick="display.value += value">
+            </div>
+            <div class="button">
+                <input type="Button" value="0" onclick="display.value += value">
+                <input type="Button" value="00" onclick="display.value += value">
+                <input type="Button" value="." onclick="display.value += value">
+                <input type="Button" value="=" onclick="display.value = eval(display.value)">
+            </div>  
+           
+        </form>
+    </div>
+</body>
+</html>
